@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ΔM-Antigravity: A Numerical Model of Repulsive Force Between Nested Mass Layers"
+abstract: >
+  A numerical model in which the force between two nested mass layers
+  contains a repulsive term proportional to the mass difference ΔM.
+  The model is regularized by a tanh function and yields a stable
+  equilibrium at radius r_eq, which scales as r_eq ∝ (M/ΔM)^(1/3).
+  Unlike the cosmological constant Λ, the effect is local and depends
+  only on local masses. The reference implementation is written in
+  Python (NumPy only) and includes numerical verification of the
+  equilibrium radius scaling. Research prototype (TRL 3). Not a
+  physical theory, not experimentally validated.
+authors:
+  - family-names: "Зиявутдинов"
+    given-names: "Магомед Камалович"
+    alias: "Zimaka"
+    email: "zimakam@gmail.com"
+    affiliation: "Independent Researcher"
+version: "1.0.0"
+date-released: "2026-09-20"
+license: MIT
+repository-code: "https://github.com/Zimakam/dm-antigravity"
+url: "https://github.com/Zimakam/dm-antigravity"
+type: software
+keywords:
+  - "antigravity"
+  - "delta-mass"
+  - "nested mass layers"
+  - "equilibrium radius"
+  - "cosmological constant"
+  - "yukawa interaction"
+  - "numerical model"
+  - "scientific computing"
+  - "python"
+  - "numpy"
