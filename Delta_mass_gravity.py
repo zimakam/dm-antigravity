@@ -99,7 +99,7 @@ def verify_signs(M: float = 1.0,
     """Verify that sign(g) flips at r_eq."""
     req = r_equilibrium(M, dM, G, alpha)
     inside = sign_at(0.1 * req, M, M + dM, G, alpha)
-    outside = sign_at(10.0 * req, M, M + dM, G, alpha)
+    outside = sign_at(100.0 * req, M, M + dM, G, alpha)
     at_eq = abs(g(req, M, M + dM, G, alpha))
     return {
         "r_eq": req,
